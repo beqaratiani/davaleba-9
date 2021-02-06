@@ -30,7 +30,8 @@ header {
 }
 
 .header-wrapper {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -38,6 +39,7 @@ header {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -94,6 +96,10 @@ nav ul {
   margin-left: 20px;
 }
 
+.burger-bar {
+  display: none;
+}
+
 /* computer section */
 
 #computer-section {
@@ -104,9 +110,13 @@ nav ul {
 .wrapper-image {
   text-align: center;
   position: relative;
-  width: 1170px;
-  height: 460px;
+  max-width: 1170px;
+  width: 100%;
   margin: auto;
+}
+
+.computer-image {
+  width: 100%;
 }
 
 .inner-img-text {
@@ -128,12 +138,13 @@ nav ul {
 /* videos section */
 
 #video-section {
-  padding: 30px 0 90px 0;
+  padding: 30px;
   background-color: #363e97;
 }
 
 .video-container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   margin: auto;
 }
 
@@ -147,7 +158,7 @@ nav ul {
 }
 
 .video {
-  width: 570px;
+  width: 49%;
   height: 320px;
   background-color: white;
   display: -webkit-box;
@@ -173,12 +184,13 @@ nav ul {
 /* news section */
 
 #news-section {
-  padding: 30px 0 90px 0;
+  padding: 30px;
   background-color: #bdccd4;
 }
 
 .news-container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   margin: auto;
 }
 
@@ -186,7 +198,16 @@ nav ul {
   color: black;
 }
 
+.image-div {
+  width: 24%;
+}
+
+.image-div img {
+  width: 100%;
+}
+
 .news-wrapper {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,12 +226,13 @@ nav ul {
 /* media section */
 
 #media-section {
-  padding: 30px 0 30px 0;
+  padding: 30px;
   background-color: #e6e6e6;
 }
 
 .media-container {
-  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
   margin: auto;
 }
 
@@ -228,8 +250,8 @@ nav ul {
 }
 
 .dev-info {
-  width: 570px;
-  height: 225px;
+  max-width: 570px;
+  width: 49%;
   background-color: white;
   padding: 15px;
   font-size: 20px;
@@ -259,6 +281,7 @@ nav ul {
   text-align: end;
   color: #3d58a6;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 footer {
