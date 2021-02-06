@@ -13,14 +13,6 @@ a {
   text-decoration: none;
 }
 
-.f-left {
-  float: left;
-}
-
-.f-right {
-  float: right;
-}
-
 header {
   position: fixed;
   width: 100%;
