@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 104px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 0 20px 0;
+  z-index: 99;
+}
+
+.header-wrapper {
+  width: 1170px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-items {
+  list-style-type: none;
+  font-size: 24px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 300px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 37px;
+}
+
+.fa-search {
+  color: #ee4036;
+}
+
+.icons i:nth-child(-n + 3):after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 27px;
+  background-color: #363e97;
+  margin-left: 20px;
+}
+
+/* computer section */
+
+#computer-section {
+  background-color: #e6e6e6;
+  padding: 20px;
+}
+
+.wrapper-image {
+  text-align: center;
+  position: relative;
+  width: 1170px;
+  height: 460px;
+  margin: auto;
+}
+
+.inner-img-text {
+  position: absolute;
+  left: 30px;
+  bottom: 22px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 30px;
+}
+
+.inner-img-img {
+  position: absolute;
+  right: 30px;
+  bottom: 22px;
+}
+
+/* videos section */
+
+#video-section {
+  padding: 30px 0 90px 0;
+  background-color: #363e97;
+}
+
+.video-container {
+  width: 1170px;
+  margin: auto;
+}
+
+.video-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.video {
+  width: 570px;
+  height: 320px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-header {
+  margin-bottom: 30px;
+  color: white;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+/* news section */
+
+#news-section {
+  padding: 30px 0 90px 0;
+  background-color: #bdccd4;
+}
+
+.news-container {
+  width: 1170px;
+  margin: auto;
+}
+
+.news-header {
+  color: black;
+}
+
+.news-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.img-desc {
+  background-color: #e6e6e6;
+  padding: 14px;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+/* media section */
+
+#media-section {
+  padding: 30px 0 30px 0;
+  background-color: #e6e6e6;
+}
+
+.media-container {
+  width: 1170px;
+  margin: auto;
+}
+
+.media-main-header {
+  color: black;
+}
+
+.media-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.dev-info {
+  width: 570px;
+  height: 225px;
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.media-header {
+  font-size: 22px;
+  color: #3d58a6;
+  margin-bottom: 12px;
+}
+
+.media-desc {
+  width: 355px;
+  margin-left: 50px;
+}
+
+.flex-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.read-more {
+  text-align: end;
+  color: #3d58a6;
+  cursor: pointer;
+}
+
+footer {
+  padding: 22px;
+}
+
+.footer-container {
+  padding: 10px;
+}
